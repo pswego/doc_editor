@@ -13,6 +13,13 @@ npm test           # 형식 변환 테스트
 HWP_SAMPLES=폴더 npm test   # 폴더 안의 .hwp 파일을 모두 읽고 HWPX 왕복까지 확인
 ```
 
+## 배포 (GitHub Pages)
+
+`index.html`은 Vite 개발용 원본이라 저장소를 그대로 Pages에 올리면 빈 화면이 나옵니다. 빌드 결과를 올려야 합니다.
+
+1. 푸시하면 `.github/workflows/pages.yml`이 테스트 → 빌드 후 `dist/`를 `gh-pages` 브랜치에 올립니다.
+2. 저장소 **Settings → Pages → Build and deployment**에서 Source를 **Deploy from a branch**, Branch를 **gh-pages / (root)**로 지정합니다.
+
 ## 기능
 
 ### 한글 문서 (HWP · HWPX)
