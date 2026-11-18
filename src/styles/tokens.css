@@ -1,0 +1,53 @@
+/* 디자인 레퍼런스 04 · 디자인 토큰 */
+:root {
+  --accent: #2457D6;
+  --accent-strong: #1D47B3;
+  --accent-soft: #EAF0FD;
+  --accent-soft-2: #DCE6FB;
+  --accent-line: #B9C7EE;
+  --ink: #191C21;
+  --ink-2: #545B67;
+  --ink-3: #2B3038;
+  --ink-muted: #5F6673;
+  --ink-disabled: #A6ADB8;
+  --doc-ink: #111316;
+  --line: #E2E5EA;
+  --line-2: #EEF0F3;
+  --line-strong: #D5D9E0;
+  --ground: #F4F5F7;
+  --surface: #FFFFFF;
+  --subtle: #FBFBFC;
+  --field: #F1F3F6;
+  --hover: #EEF0F3;
+  --canvas: #E9EBEF;
+
+  --hwp: #2457D6;
+  --pdf: #C2410C;
+  --pdf-soft: #FCEBDF;
+  --pdf-text: #9A3412;
+  --success: #15803D;
+  --success-soft: #E6F4EC;
+  --success-text: #166534;
+  --danger: #DC2626;
+  --danger-text: #B91C1C;
+  --danger-line: #F3C4C4;
+  --info-soft: #E4F2F7;
+  --info-text: #155E75;
+  --warn-soft: #FDF3D8;
+  --warn-text: #854D0E;
+  --purple-soft: #F1EAFB;
+  --purple-text: #6B21A8;
+  --highlighter: #FFD84D;
+  --selection: #CFDCF9;
+
+  --r-sm: 8px;
+  --r-md: 10px;
+  --r-lg: 14px;
+  --r-xl: 16px;
+
+  --shadow-pop: 0 8px 20px rgba(20, 24, 31, .16);
+  --shadow-page: 0 1px 3px rgba(20, 24, 31, .08), 0 8px 24px rgba(20, 24, 31, .06);
+
+  --font-ui: 'Noto Sans KR', system-ui, -apple-system, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
+  --font-doc: 'Noto Serif KR', 'Batang', serif;
+}
